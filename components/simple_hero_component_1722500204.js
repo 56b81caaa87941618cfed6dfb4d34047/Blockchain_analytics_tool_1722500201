@@ -4,22 +4,22 @@
 */
 Vue.component("simple_hero_component_1722500204", {
     template: `
-        <section id="hero-section" class="bg-white dark:bg-gray-900 flex-1">
-            <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <section id="hero-section" class="bg-gradient-to-br from-pink-500 via-purple-600 to-black flex-1 min-h-screen">
+            <nav class="bg-transparent backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200 dark:border-gray-700">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" class="flex items-center">
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Logo</span>
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Logo</span>
                     </a>
                     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-transparent">
                             <li>
-                                <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+                                <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-purple-700 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0" aria-current="page">Home</a>
                             </li>
                             <li>
-                                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                                <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-purple-700 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0">About</a>
                             </li>
                             <li>
-                                <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                                <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-purple-700 md:hover:bg-transparent md:border-0 md:hover:text-pink-300 md:p-0">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -29,29 +29,29 @@ Vue.component("simple_hero_component_1722500204", {
                 <div id="hero-text-container" class="mr-auto place-self-center lg:col-span-7">
                     
                     <div id="hero-title-container-text" class="flex">
-                        <h1 id="hero-title" class="flex-1 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Unlock the Power of Blockchain Analytics</h1>
+                        <h1 id="hero-title" class="flex-1 max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-white">Unlock the Power of Blockchain Analytics</h1>
                     </div>
 
                     <div id="hero-subtitle-container" class="flex">
-                        <p id="hero-subtitle" class="flex-1 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Gain Invaluable Insights into Emerging Blockchain Data</p>
+                        <p id="hero-subtitle" class="flex-1 max-w-2xl mb-6 font-light text-pink-200 lg:mb-8 md:text-lg lg:text-xl">Gain Invaluable Insights into Emerging Blockchain Data</p>
                     </div>
 
                     <div id="hero-buttons-container" class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
                         <div id="hero-button-1-container" class="flex">
-                            <a id="hero-button-1" href="https://github.com/themesberg/landwind" class="flex-1  items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">Start Analyzing Now</a>
+                            <a id="hero-button-1" href="https://github.com/themesberg/landwind" class="flex-1 items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-white bg-purple-600 rounded-lg sm:w-auto hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 backdrop-filter backdrop-blur-lg bg-opacity-30">Start Analyzing Now</a>
                         </div>
 
                         <div id="hero-button-2-container" class="flex">
-                            <a id="hero-button-2" href="https://www.figma.com/community/file/1125744163617429490" class="flex-1  items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn More</a>
+                            <a id="hero-button-2" href="https://www.figma.com/community/file/1125744163617429490" class="flex-1 items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white bg-pink-500 rounded-lg sm:w-auto focus:outline-none hover:bg-pink-600 focus:ring-4 focus:ring-pink-300 backdrop-filter backdrop-blur-lg bg-opacity-30">Learn More</a>
                         </div>
                         <div id="hero-button-3-container" class="flex">
-                            <button id="hero-button-3" class="flex-1 items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Hello World</button>
+                            <button id="hero-button-3" class="flex-1 items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-white bg-black rounded-lg sm:w-auto focus:outline-none hover:bg-gray-900 focus:ring-4 focus:ring-gray-300 backdrop-filter backdrop-blur-lg bg-opacity-30">Hello World</button>
                         </div>
                     </div>
                     
                 </div>
                 <div id="hero-image-container" class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                    <img id="hero-image" src="./images/hero.png" alt="hero image">
+                    <img id="hero-image" src="./images/hero.png" alt="hero image" class="rounded-lg shadow-2xl">
                 </div>
             </div>
         </section>            
