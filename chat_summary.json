@@ -42,5 +42,11 @@
         "content": "Great, I will add a navbar with home, about, and contact links!",
         "timestamp": "01082024082320",
         "message_id": "guest01082024082319"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be always visible as the user scrolls down the page, or should it disappear and reappear on scroll?\", \"option1\": \"Always visible\", \"option2\": \"Disappear and reappear on scroll\"}, {\"question 2\": \"Should the navbar have a responsive design to adapt to different device sizes, such as mobile phones and tablets?\", \"option1\": \"Yes, it should be responsive\", \"option2\": \"No, keep it static for desktop view only\"}], \"input_token_count\": 265, \"output_token_count\": 115, \"time_taken\": \"0:00:04.850465\"}",
+        "timestamp": "01082024082325",
+        "message_id": "guest01082024082319"
     }
 ]
